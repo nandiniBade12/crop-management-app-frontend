@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: url('./Images/agrihome.jpg');
+  background-size:auto;
+  background-attachment: scroll;
+}

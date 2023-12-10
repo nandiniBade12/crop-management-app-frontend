@@ -1,0 +1,158 @@
+.crops-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .crops-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .add {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+    
+  }
+
+  .add button {
+    background-color: rgb(139, 190, 57);
+    width: 120px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .search-text  {
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    height: 30px;
+    margin-left: 100px;
+    padding: 3px;
+    margin-top: 5px;
+  }
+  
+  .crop-card {
+    border: 1px solid rgb(230, 223, 223);
+    border-radius: 5px;
+    padding: 1rem;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+  .crop-card img{
+    margin-top: -5px;
+    margin-bottom: -1rem;
+  }
+  
+  .crop-card p {
+    font-size: 0.9rem;
+    line-height: 0.35;
+    margin-bottom: -1rem;
+    font-family:'Times New Roman', Times, serif
+  }
+
+  .crop-card h4 {
+    line-height: 0.1;
+    margin-bottom: 0.1rem;
+  }
+  
+ .crop-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 30px;
+  }
+  
+  .crop-card button {
+    padding: 0.5rem 0.5rem;
+    /* background-color: #48e253; */
+    /* color: black; */
+    border: 1px white solid;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .crop-card button:hover {
+    color: white;
+    transition: background-color 300ms;
+    background-color: salmon;
+  }
+
+  /* .crop-card.btn-warning:hover {
+    color: white;
+    transition: background-color 300ms;
+    background-color: rgb(49, 157, 39);
+  } */
+  
+  @media (max-width: 700px) {
+    .crops-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* Style for "Update" button */
+  .btn-warning {
+    background-color: #4e84df;
+    color: #fff;
+    border-color: #36393f;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .link-color {
+    color: #f7f7f7;
+  }
+  
+  /* Style for "Delete" button */
+  .btn-danger {
+    margin-left: 20px;
+    background-color: #e44454;
+    color: #fff;
+    border-color: #d41e30;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .custom-popup {
+    background-color: #f7f7f7;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20;
+  }
+  #popText{
+    color: #f7f7f7;
+  }
+
+  .cart-btn {
+    background-color: rgb(246, 103, 103);
+    color: white;
+    width: 160px;
+  }
+
+  .search-bar select{
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    height: 30px;
+    /* margin-bottom: 5px; */
+    padding: 3px;
+
+  }

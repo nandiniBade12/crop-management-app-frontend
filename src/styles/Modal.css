@@ -1,0 +1,36 @@
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modal content style */
+  .ReactModal__Content {
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    outline: none; /* Remove default outline on focus */
+    width: 400px; /* Adjust the width based on your design */
+    max-width: 80%; /* Maximum width */
+    border-radius: 8px;
+  }
+  
+  /* Close button style */
+  .ModalCloseButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    padding: 5px;
+  }

@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #78b578;
+    height: 45px;
+    padding: 0 20px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar__logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar_account_holder {
+    font-size: medium;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  .navbar__menu-item {
+    margin-left: 20px;
+  }
+  
+  .navbar__menu-item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .navbar__menu-item a:hover {
+    color: rgb(1, 0, 0);
+  }
+  
+  .navbar__menu-item--active a {
+    color: #fff;
+  }
+  
+  .navbar__hamburger {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* .icon {
+    color: white;
+  } */
+  

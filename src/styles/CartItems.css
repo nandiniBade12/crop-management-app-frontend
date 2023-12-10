@@ -1,0 +1,208 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:white;
+    width: 50%;
+    position: absolute;
+  }
+  
+  .cart-grid {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d1d3d7;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+.cart-grid .error { 
+    color: #f04747;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+  .cart-grid form {
+    display: flexbox;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .form-control label {
+    font-weight:lighter;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 90%;
+  }
+
+  .form-control select {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 90%;
+  }
+  
+  .cart-card {
+    border: 1 solid black;
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content:left;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    /* background-color: white */
+  }
+
+  .cart-cards {
+    border: 1 solid black;
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content:left;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    /* background-color: white */
+    /* background-color: white */
+  }
+
+  .cart-card-info {
+    border: 1 solid black;
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content:left;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* background-color: white */
+  }
+
+  .cart-image {
+    margin-right: 10px;
+  }
+  
+  .cart-description {
+    display: flex; 
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .cart-remove {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 120px;
+    justify-content: right;
+  }
+  
+  .cart-card p {
+    font-size: 0.9rem;
+    line-height: 0.2;
+  }
+
+  .customer-info p{
+    font-size: 0.9rem;
+    line-height: 0.8;
+  }
+
+  .cart-info p{
+    font-size: 0.9rem;
+  }
+
+  .cart-info {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -10px;
+  }
+
+  .p2 {
+    font-size: 0.8rem;
+    line-height: 1.0;
+  }
+
+  .p3 {
+    font-size: 0.8rem;
+    line-height: 0.5;
+  }
+  
+  .cart-card button {
+    padding: 0.5rem 0.5rem;
+    /* background-color: #48e253; */
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+  
+  .cart-card button:hover {
+    color: white;
+    transition: background-color 300ms;
+    background-color: red;
+  }
+
+  .cart-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for "Update" button */
+  .checkout-btn {
+    background-color: #e3df22;
+    color: black;
+    border-color: #36393f;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .cart-bottom button:hover{
+    background-color: #6e75c4;
+    color: white;
+    transition: background-color 300ms;
+    cursor: pointer;
+  }
+  
+  /* Style for "Delete" button */
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #d41e30;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
